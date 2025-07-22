@@ -18,10 +18,16 @@ Start with the file [Entropy dof SM and SUSY.ipynb](https://github.com/annetkoni
 The SM particles and their rest masses and number of helicity states are taken from the paper by Watanabe and Komatsu [^2].
 
 ### Decoupling
+After the Big Bang, the universe has high density and temperature and existing particle species are relativistic. All particles are in thermal (i.e., kinetic and chemical) equilibrium. We then get a period of inflation where the universe expands exponentially and the temperature decreases. From this point on, the reaction rates of elastic scattering (kinetic) and/or annihilation (chemical) of a particle species with the other particles in the thermal bath may become smaller than the Hubble expansion rate: Γ < H. Now they are no longer in thermal equilibrium. For thermal decoupling, Γ = n⟨σ​v⟩. Since the number density n depends on temperature as T^(3) for relativistic, and T^(3/2)*exp^(-(mc^2)/(k_B*T)) for non-relaticvistic particles, the number densities get suppressed when the temperature decreases.
+[^3][^4]
 
-Neutrinos are a special case, as they do not decouple instantly. Therefore a sigmoid function is used to mimic a smooth transition from being coupled to the thermal bath, where Tν = Tγ, to decoupling, where Tν = (4/11)^(1/3)*Tγ. The energy range for this is taken as 1 < T < 3 MeV.
+
+Neutrinos are a special case, as they do not decouple instantly. Therefore a sigmoid function is used to mimic a smooth transition from being coupled to the thermal bath, where Tν = Tγ, to decoupling, where Tν = (4/11)^(1/3)*Tγ. The energy range for this is taken as 1 < T < 3 MeV. The difference in photon and neutrino temperature is because of electron-positron annihilation, effectively 'heating' the thermal bath after (most) neutrinos have already decoupled.
+Photons decouple when the rate of free electron scattering drops below the expansion rate. After decoupling the photons free stream and can be observed as the cosmic microwave background.
 
 
 
 [^1]: Reference: M. Tanabashi et al., Review of Particle Physics, Phys. Rev. D 98, 030001 (2018).
 [^2]: Reference: Y. Watanabe and E. Komatsu, Improved calculation of the primordial gravitational wave spectrum in the standard model, Physical Review D 73 (2006).
+[^3]: Reference: T. Bringmanna and S. Hofmannb, Thermal decoupling of WIMPs from first principles, Journal of cosmology and Astroparticle Physics, 2007(04):016, (2007).
+[^4]: Reference: J. Schaye, J. Braspenning, E. Chaikin and R. Kugel, Lecture notes Origin and Evolution of the Universe, Leiden University (2022).
