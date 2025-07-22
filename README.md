@@ -29,7 +29,7 @@ Photons decouple when the rate of free electron scattering drops below the expan
 After running the [Number of effective rel dof SM and SUSY.ipynb](https://github.com/annetkonings/Signatures-of-PSGWs/blob/main/Number%20of%20effective%20rel%20dof%20SM%20and%20SUSY.ipynb), now you can run the file [Entropy dof SM and SUSY.ipynb](https://github.com/annetkonings/Signatures-of-PSGWs/blob/main/Entropy%20dof%20SM%20and%20SUSY.ipynb) to get the entropy degrees of freedom.
 
 ### Relative spectral energy density
-The third file to run is [GW spectral energy density SM and SUSY.ipynb](https://github.com/annetkonings/Signatures-of-PSGWs/blob/main/GW%20spectral%20energy%20density%20SM%20and%20SUSY.ipynb). This solves the evolution of the gravitational waves impacted by the decoupling of the particles and neutrino free-streaming. The result is the spectral energy density of the GW signal as function of wavenumber.
+The third file to run is [GW energy density SM-SUSY.ipynb](https://github.com/annetkonings/Signatures-of-PSGWs/blob/main/GW%20energy%20density%20SM-SUSY.ipynb). This solves the evolution of the gravitational waves impacted by the decoupling of the particles and neutrino free-streaming. The result is the spectral energy density of the GW signal as function of wavenumber.
 
 
 [^1]: Reference: M. Tanabashi et al., Review of Particle Physics, Phys. Rev. D 98, 030001 (2018).
