@@ -13,7 +13,7 @@ To run these files, you will need numpy, scipy, matplotlob and pandas.
 ## Usage
 
 ### SUSY
-Start with the file [Entropy dof SM and SUSY.ipynb](https://github.com/annetkonings/Signatures-of-PSGWs/blob/main/Entropy%20dof%20SM%20and%20SUSY.ipynb). Here, the effective relativistic degrees of freedom of the particles in the Standard Model (SM) are calculated, as well as for the SUSY particles. In this extension of the SM, there is a supersymmetric particle 'cousin' for every SM particle. This means that every bosonic particle has a SUSY particle with a spin that differs by 1/2: i.e., a fermion. In the same way, every fermion has a SUSY particle that is a boson. Apart from the difference in spin, there is one more characteristic of SUSY particles that differentiates them from SM particles: their mass. Atlhough the exact values are unknown, their masses are theorised to be in the GeV - TeV range [^1].
+Start with the file [Number of effective rel dof SM and SUSY.ipynb](https://github.com/annetkonings/Signatures-of-PSGWs/blob/main/Number%20of%20effective%20rel%20dof%20SM%20and%20SUSY.ipynb). Here, the effective relativistic degrees of freedom of the particles in the Standard Model (SM) are calculated, as well as for the SUSY particles. In this extension of the SM, there is a supersymmetric particle 'cousin' for every SM particle. This means that every bosonic particle has a SUSY particle with a spin that differs by 1/2: i.e., a fermion. In the same way, every fermion has a SUSY particle that is a boson. Apart from the difference in spin, there is one more characteristic of SUSY particles that differentiates them from SM particles: their mass. Atlhough the exact values are unknown, their masses are theorised to be in the GeV - TeV range [^1].
 
 The SM particles and their rest masses and number of helicity states are taken from the paper by Watanabe and Komatsu [^2].
 
@@ -25,6 +25,11 @@ After the Big Bang, the universe has high density and temperature and existing p
 Neutrinos are a special case, as they do not decouple instantly. Therefore a sigmoid function is used to mimic a smooth transition from being coupled to the thermal bath, where Tν = Tγ, to decoupling, where $T_{\nu} = \big(\frac{4}{11}\big)^{1/3}T_{\gamma}$. The energy range for this is taken as 1 < T < 3 MeV. The difference in photon and neutrino temperature is because of electron-positron annihilation, effectively 'heating' the thermal bath after (most) neutrinos have already decoupled.
 Photons decouple when the rate of free electron scattering drops below the expansion rate. After decoupling the photons free stream and can be observed as the cosmic microwave background.
 
+### Effective degrees of freedom and entropy degrees of freedom
+After running the [Number of effective rel dof SM and SUSY.ipynb](https://github.com/annetkonings/Signatures-of-PSGWs/blob/main/Number%20of%20effective%20rel%20dof%20SM%20and%20SUSY.ipynb), now you can run the file [Entropy dof SM and SUSY.ipynb](https://github.com/annetkonings/Signatures-of-PSGWs/blob/main/Entropy%20dof%20SM%20and%20SUSY.ipynb) to get the entropy degrees of freedom.
+
+### Relative spectral energy density
+The third file to run is [GW spectral energy density SM and SUSY.ipynb](https://github.com/annetkonings/Signatures-of-PSGWs/blob/main/GW%20spectral%20energy%20density%20SM%20and%20SUSY.ipynb). This solves the evolution of the gravitational waves impacted by the decoupling of the particles and neutrino free-streaming. The result is the spectral energy density of the GW signal as function of wavenumber.
 
 
 [^1]: Reference: M. Tanabashi et al., Review of Particle Physics, Phys. Rev. D 98, 030001 (2018).
