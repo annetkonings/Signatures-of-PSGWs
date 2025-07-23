@@ -31,6 +31,11 @@ After running the [Number of effective rel dof SM and SUSY.ipynb](https://github
 ### Relative spectral energy density
 The third file to run is [GW energy density SM-SUSY.ipynb](https://github.com/annetkonings/Signatures-of-PSGWs/blob/main/GW%20energy%20density%20SM-SUSY.ipynb). This solves the evolution of the gravitational waves impacted by the decoupling of the particles and neutrino free-streaming. The result is the spectral energy density of the GW signal as function of wavenumber.
 
+The evolution of the GWs is given by:
+```math
+\chi''(u) + \bigg[\frac{2a'(u)}{a(u)}\bigg]\chi'(u) + \chi(u) = -24f_{\nu}(u)\bigg[\frac{a'(u)}{a(u)}\bigg]^2 \int^{u}_{u_{\nu dec}}dU \bigg[\frac{j_2(u-U)}{(u-U)^2}\bigg]\chi'(U)
+```
+
 
 [^1]: Reference: M. Tanabashi et al., Review of Particle Physics, Phys. Rev. D 98, 030001 (2018).
 [^2]: Reference: Y. Watanabe and E. Komatsu, Improved calculation of the primordial gravitational wave spectrum in the standard model, Physical Review D 73 (2006).
