@@ -37,6 +37,16 @@ The evolution of the GWs is given by:
 ```
 where the second term on the left describes the effect of the expansion of the universe. The right-hand side represents the effect of neutrino free-streaming. The lower limit of the integral is taken to be $u_{\nu dec}$, because there is no neutrino free-streaming before decoupling.
 
+The initial conditions are
+```math
+\chi(0) = 1, \quad \chi'(0) = 0,
+```
+
+and the fraction of the total energy density in neutrinos is [^2]
+```math
+f_{\nu}(\tau) = \frac{0.4052}{1+a(\tau)/a_{eq}}.
+```
+
 
 [^1]: Reference: M. Tanabashi et al., Review of Particle Physics, Phys. Rev. D 98, 030001 (2018).
 [^2]: Reference: Y. Watanabe and E. Komatsu, Improved calculation of the primordial gravitational wave spectrum in the standard model, Physical Review D 73 (2006).
