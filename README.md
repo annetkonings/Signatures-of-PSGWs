@@ -35,6 +35,7 @@ The evolution of the GWs is given by:
 ```math
 \chi''(u) + \bigg[\frac{2a'(u)}{a(u)}\bigg]\chi'(u) + \chi(u) = -24f_{\nu}(u)\bigg[\frac{a'(u)}{a(u)}\bigg]^2 \int^{u}_{u_{\nu dec}}dU \bigg[\frac{j_2(u-U)}{(u-U)^2}\bigg]\chi'(U)
 ```
+where the second term on the left describes the effect of the expansion of the universe. The right-hand side represents the effect of neutrino free-streaming. The lower limit of the integral is taken to be $u_{\nu dec}$, because there is no neutrino free-streaming before decoupling.
 
 
 [^1]: Reference: M. Tanabashi et al., Review of Particle Physics, Phys. Rev. D 98, 030001 (2018).
